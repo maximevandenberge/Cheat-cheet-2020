@@ -1,0 +1,226 @@
+html {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.padding, nav {
+  padding: 1rem 5rem;
+}
+
+.marginbot, nav, .priority, .intro {
+  margin-bottom: 3rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 0.05rem solid #dadada;
+}
+
+nav > li {
+  padding-right: 2rem;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aside {
+  width: 20rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+
+.aside > ul {
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  border-bottom: 0.05rem solid #dadada;
+}
+
+.chapter {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.active {
+  background: blue;
+  border-radius: .2rem;
+}
+
+.sub {
+  padding: .8rem 1rem;
+  margin-bottom: .2rem;
+  font-size: .9rem;
+}
+
+.sub:hover {
+  background: #9d90ff;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.primcolor, .funccolor {
+  width: 90%;
+  height: 8rem;
+  padding: 1rem;
+  color: #000;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+  border: solid 0.05rem #9d9d9d;
+  border-radius: 0.1rem;
+}
+
+.primcolor {
+  margin-bottom: 3rem;
+}
+
+.button {
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 4rem;
+  color: #ffffff;
+  background-color: #ffffff;
+  border: none;
+}
+
+.default {
+  border: 0.1rem solid #9d9d9d;
+  color: #9d9d9d;
+}
+
+.defaulthover {
+  border: 0.1rem solid #9d9d9d;
+  color: #9d9d9d;
+}
+
+.defaulthover:hover {
+  background: blue;
+  border: 0.1rem solid blue;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.priority {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.content {
+  width: 100%;
+}
+
+.subnav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 0.05rem solid #dadada;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.subnav > ul > li {
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.subnav > ul > li:hover {
+  color: #9d90ff;
+  cursor: pointer;
+}
+
+.logo {
+  color: blue;
+  font-weight: bold;
+}
+
+.primary {
+  background-color: blue;
+}
+
+.secondary {
+  background-color: #ffffff;
+}
+
+.hover {
+  background-color: #9d90ff;
+}
+
+.grey {
+  background-color: #9d9d9d;
+}
+
+.border {
+  background-color: #dadada;
+}
+
+.black {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.intro {
+  font-size: 1.2rem;
+  width: 80%;
+}
+
+.big {
+  font-size: 5rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */

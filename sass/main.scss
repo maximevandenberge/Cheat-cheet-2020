@@ -1,0 +1,232 @@
+@import '_variables.scss';
+
+html{
+    font-family: $font-family-base;
+}
+
+
+a{
+    text-decoration: none;
+    &:hover{
+        color: $black;
+      
+        cursor: pointer;
+        
+    }
+    color: $black;
+  
+}
+
+
+.padding{
+    padding: 1rem 5rem;
+}
+.marginbot{
+    margin-bottom: 3rem;
+}
+li{
+    list-style-type: none;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: .05rem solid $border;
+    @extend .padding;
+    @extend .marginbot;
+
+    > li {
+        padding-right: 2rem;
+    }
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.aside{
+width: 20rem;
+margin-left: 4rem;
+margin-right: 5rem;
+
+> ul {
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    border-bottom: .05rem solid $border;
+
+  
+    
+}
+}
+
+.chapter{
+
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding:  0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+  
+}
+.active{
+    background: $primary; 
+    border-radius: .2rem;
+}
+
+.sub{
+    padding:  .8rem 1rem;
+    margin-bottom: .2rem;
+    font-size: .9rem;
+
+
+    &:hover{
+        background: $hover; 
+        border-radius: .2rem;
+        cursor: pointer;
+        
+    }
+
+   
+}
+
+h1{
+    margin-bottom: 3rem;
+    font-size: $mytitel;
+}
+
+h2{
+    font-size: $mysubtitel;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.primcolor ,.funccolor{
+    width: 90%;
+ 
+    height: 8rem;
+    padding: 1rem;
+    color: $black;
+    font-size: $mytext;
+    margin-bottom: .5rem;
+    border: solid .05rem $grey;
+    border-radius: $radius;
+ 
+
+}
+
+.primcolor{
+
+    margin-bottom: 3rem;
+}
+
+
+.button{
+    border-radius: $buttonradius;
+    width: 15rem;
+    height: 4rem;
+    color: $secondary;
+    background-color: $secondary;
+    border: none;
+}
+
+.default{
+    border: .1rem solid $grey;
+    color: $grey;
+}
+
+.defaulthover{
+    border: .1rem solid $grey;
+    color: $grey;
+
+    &:hover{
+        background: $primary; 
+        border: .1rem solid $primary;
+        color: $secondary;
+        cursor: pointer;
+        
+    }
+}
+
+.priority{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 90%;
+@extend .marginbot;
+}
+
+
+.content{
+width: 100%;
+
+}
+
+.subnav{
+    >ul{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+border-bottom: .05rem solid $border;
+width:90%;
+margin-bottom: 3rem;
+
+
+>li{
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+
+
+    &:hover{
+        color: $hover; 
+        cursor: pointer;
+    }
+}
+
+}
+
+}
+
+.logo{
+    color: $primary;
+    font-weight: bold;
+}
+.primary{
+    background-color: $primary;
+}
+
+.secondary{
+    background-color: $secondary;
+}
+
+.hover{
+    background-color: $hover;
+}
+
+.grey{
+    background-color: $grey;
+}
+
+.border{
+    background-color: $border;
+}
+
+.black{
+    background-color: $black;
+    color: $secondary;
+}
+
+.intro{
+  font-size: $mytext;
+    @extend .marginbot;
+    width: 80%;
+}
+
+.big{
+    font-size: $mybig;
+    font-weight: $myheavy;
+}

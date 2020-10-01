@@ -1,2 +1,7 @@
 .git/
 .DS_Store/
+main.css.map/
+main.scss/
+_variables.scss/
+reset.css/
+css/

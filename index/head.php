@@ -2,21 +2,16 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Cheat-cheet-2020</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>Cheat-cheat</h1>
-        <h2>Artevelde hogeschool 2020-2021</h2>
-        <p>Alle code van de programmeer vakken in het 2de semester</p> 
-        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="sass/main.css">
   
-    </body>
-</html>
+        <script src="./src/index.js"></script>
+      
+    </head>
