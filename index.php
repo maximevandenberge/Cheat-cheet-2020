@@ -8,8 +8,8 @@
      <div class="content">
       <h1>Home</h1>
       <div class="subnav"><ul>
-          <li><a>Brand</a></li>
-          <li><a>Functional Colors</a></li>
+          <li>Brand</li>
+          <li>Functional Colors</li>
          
         </ul></div>
         <h2>Brand</h2>
