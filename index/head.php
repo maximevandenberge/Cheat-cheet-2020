@@ -12,6 +12,6 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="sass/main.css">
   
-        <script src="./src/index.js"></script>
+      
       
     </head>

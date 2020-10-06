@@ -2,6 +2,7 @@
 
 html{
     font-family: $font-family-base;
+    background-color:$primary;
 }
 
 
@@ -9,7 +10,7 @@ a{
     text-decoration: none;
     &:hover{
         
-      
+     
         cursor: pointer;
         
     }
@@ -51,7 +52,7 @@ nav{
 .aside{
 width: 20rem;
 margin-left: 4rem;
-margin-right: 5rem;
+margin-right: 2rem;
 
 > ul {
     padding-bottom: 1.5rem;
@@ -68,9 +69,10 @@ margin-right: 5rem;
 
     margin-bottom: 2rem;
     margin-top: 2rem;
-  
-    font-weight: bold;
+    color: $black;
+    font-weight: $myheavy;
     font-size: 1rem;
+    padding-left: .8rem;
   
 }
 .active{
@@ -79,29 +81,39 @@ margin-right: 5rem;
 }
 
 .sub{
-    padding:  .8rem 0rem;
+    padding:  .8rem .8rem;
     margin-bottom: .2rem;
-    font-size: .9rem;
+    font-size: 1rem;
+    color: $black;
+    
+}
 
-
-    &:hover{
-        background: $hover; 
-        border-radius: .2rem;
-        cursor: pointer;
-        
-    }
-
-   
+iframe{
+    padding: 0 0 2rem 0;
+    
 }
 
 h1{
     margin-bottom: 3rem;
     font-size: $mytitel;
+    color: $black;
+    font-weight: $myheavy;
 }
 
 h2{
     font-size: $mysubtitel;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    color: $black;
+}
+
+h3{
+    font-size: $myboldtitel;
+    color: $black;
+    margin: 1rem 0;
+    font-family: $font-family-base;
+    font-weight: $myheavy;
+
+    
 }
 
 
@@ -193,9 +205,29 @@ padding-left: 0;
 
 }
 
+.container{
+    background-color: $grey;
+    padding: 1rem;
+    border-radius: $radius;
+    font-family: $code-font;
+    width: 90%;
+    >p{
+        font-size: $mytext;
+        line-height: 1.2rem;
+        border-bottom: solid .1rem $border;
+        padding-bottom: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.navtitle{
+    color:$grey;
+}
+
 .logo{
     color: $primary;
-    font-weight: bold;
+    font-weight: $myheavy;
+    color: $black;
 }
 .primary{
     background-color: $primary;
@@ -230,5 +262,13 @@ padding-left: 0;
 
 .big{
     font-size: $mybig;
+    font-weight: $myheavy;
+}
+
+.codefont{
+    font-family: $code-font;
+}
+
+.bold{
     font-weight: $myheavy;
 }

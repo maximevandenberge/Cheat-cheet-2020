@@ -1,10 +1,11 @@
 html {
-  font-family: helvetica;
+  font-family: avenir next;
+  background-color: #1d293b;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #ffb11f;
 }
 
 a:hover {
@@ -31,7 +32,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border-bottom: 0.05rem solid #dadada;
+  border-bottom: 0.05rem solid #000;
 }
 
 nav > li {
@@ -54,58 +55,70 @@ nav > li {
 .aside {
   width: 20rem;
   margin-left: 4rem;
-  margin-right: 5rem;
+  margin-right: 2rem;
 }
 
 .aside > ul {
   padding-bottom: 1.5rem;
   padding-top: 1rem;
-  border-bottom: 0.05rem solid #dadada;
+  border-bottom: 0.05rem solid #000;
   padding-left: 0;
 }
 
 .chapter {
   margin-bottom: 2rem;
   margin-top: 2rem;
-  font-weight: bold;
+  color: #ffb11f;
+  font-weight: 700;
   font-size: 1rem;
+  padding-left: .8rem;
 }
 
 .active {
-  background: blue;
+  background: #1d293b;
   border-radius: .2rem;
 }
 
 .sub {
-  padding: .8rem 0rem;
+  padding: .8rem .8rem;
   margin-bottom: .2rem;
-  font-size: .9rem;
+  font-size: 1rem;
+  color: #ffb11f;
 }
 
-.sub:hover {
-  background: #9d90ff;
-  border-radius: .2rem;
-  cursor: pointer;
+iframe {
+  padding: 0 0 2rem 0;
 }
 
 h1 {
   margin-bottom: 3rem;
   font-size: 3.4rem;
+  color: #ffb11f;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  color: #ffb11f;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #ffb11f;
+  margin: 1rem 0;
+  font-family: avenir next;
+  font-weight: 700;
 }
 
 .primcolor, .funccolor {
   width: 90%;
   height: 8rem;
   padding: 1rem;
-  color: #000;
-  font-size: 1.2rem;
+  color: #ffb11f;
+  font-size: 0.8rem;
   margin-bottom: .5rem;
-  border: solid 0.05rem #9d9d9d;
+  border: solid 0.05rem #fdfdfd;
   border-radius: 0.1rem;
 }
 
@@ -123,18 +136,18 @@ h2 {
 }
 
 .default {
-  border: 0.1rem solid #9d9d9d;
-  color: #9d9d9d;
+  border: 0.1rem solid #fdfdfd;
+  color: #fdfdfd;
 }
 
 .defaulthover {
-  border: 0.1rem solid #9d9d9d;
-  color: #9d9d9d;
+  border: 0.1rem solid #fdfdfd;
+  color: #fdfdfd;
 }
 
 .defaulthover:hover {
-  background: blue;
-  border: 0.1rem solid blue;
+  background: #1d293b;
+  border: 0.1rem solid #1d293b;
   color: #ffffff;
   cursor: pointer;
 }
@@ -168,7 +181,7 @@ h2 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-bottom: 0.05rem solid #dadada;
+  border-bottom: 0.05rem solid #000;
   margin-bottom: 3rem;
   padding-left: 0;
 }
@@ -179,17 +192,38 @@ h2 {
 }
 
 .subnav > ul > li:hover {
-  color: #9d90ff;
+  color: #fccb43;
   cursor: pointer;
 }
 
+.container {
+  background-color: #fdfdfd;
+  padding: 1rem;
+  border-radius: 0.1rem;
+  font-family: Monaco;
+  width: 90%;
+}
+
+.container > p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  border-bottom: solid 0.1rem #000;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.navtitle {
+  color: #fdfdfd;
+}
+
 .logo {
-  color: blue;
-  font-weight: bold;
+  color: #1d293b;
+  font-weight: 700;
+  color: #ffb11f;
 }
 
 .primary {
-  background-color: blue;
+  background-color: #1d293b;
 }
 
 .secondary {
@@ -197,29 +231,37 @@ h2 {
 }
 
 .hover {
-  background-color: #9d90ff;
+  background-color: #fccb43;
 }
 
 .grey {
-  background-color: #9d9d9d;
+  background-color: #fdfdfd;
 }
 
 .border {
-  background-color: #dadada;
+  background-color: #000;
 }
 
 .black {
-  background-color: #000;
+  background-color: #ffb11f;
   color: #ffffff;
 }
 
 .intro {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   width: 80%;
 }
 
 .big {
   font-size: 5rem;
+  font-weight: 700;
+}
+
+.codefont {
+  font-family: Monaco;
+}
+
+.bold {
   font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */

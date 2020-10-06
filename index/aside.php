@@ -1,5 +1,9 @@
 <div class="flexbox">
      <div class="aside">
+     <ul>
+             <li class="chapter"><a href="index.php">Home</a></li>
+           
+         </ul>
          <ul>
              <li class="chapter">Vakken</li>
              <li class="sub"><a href="mobdev.php">Mobile Development</a></li>
